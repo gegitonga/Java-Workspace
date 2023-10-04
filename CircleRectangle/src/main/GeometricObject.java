@@ -1,16 +1,16 @@
 package main;
 
-public class GeometricObject {
+public abstract class GeometricObject {
     private String color = "White";
     private boolean filled;
     private java.util.Date dateCreated;
 
 //    default constructor
-    public GeometricObject(){
+    protected GeometricObject(){
         dateCreated = new java.util.Date();
     }
 
-    public GeometricObject(String color, boolean filled){
+    protected GeometricObject(String color, boolean filled){
         dateCreated = new java.util.Date();
         this.color = color;
         this.filled = filled;
@@ -39,5 +39,8 @@ public class GeometricObject {
         return "created on " + dateCreated + "\ncolor: " + " and filled : " + filled;
     }
 
+    public abstract double getArea();
+
+    public abstract double getPerimeter();
 
 }
