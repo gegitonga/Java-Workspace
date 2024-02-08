@@ -9,7 +9,11 @@ import jakarta.persistence.Table;
 @Table(name="candidates")
 public class Candidate {
 
+    public Candidate(){
+        super();
+    }
     public Candidate(Long id, String name){
+        super();
         this.id =id;
         this.name =name;
     }

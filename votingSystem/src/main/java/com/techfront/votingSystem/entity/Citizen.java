@@ -9,6 +9,9 @@ import jakarta.persistence.Table;
 @Table(name="citizens")
 public class Citizen {
 
+    public Citizen(){
+        super();
+    }
     public Citizen(Long id, String name){
         super();
         this.id = id;
