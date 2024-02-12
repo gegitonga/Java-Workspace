@@ -24,6 +24,9 @@ public class Citizen {
     @Column(name="citizen_name")
     private String name;
 
+    @Column(name = "hasvoted")
+    private Boolean hasvoted;
+
     public Long getId() {
         return id;
     }
@@ -40,4 +43,11 @@ public class Citizen {
         this.id = id;
     }
 
+    public Boolean getHasvoted() {
+        return hasvoted;
+    }
+
+    public void setHasvoted(Boolean hasvoted) {
+        this.hasvoted = hasvoted;
+    }
 }
