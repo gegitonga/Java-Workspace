@@ -12,10 +12,11 @@ public class Candidate {
     public Candidate(){
         super();
     }
-    public Candidate(Long id, String name){
+    public Candidate(Long id, String name,Integer numberOfVotes){
         super();
         this.id =id;
         this.name =name;
+        this.numberOfVotes = numberOfVotes;
     }
     @Id
     @Column
@@ -23,6 +24,9 @@ public class Candidate {
 
     @Column(name = "candidate_name")
     private String name;
+
+    @Column(name="numberOfVotes")
+    private Integer numberOfVotes;
 
     public Long getId() {
         return id;
@@ -38,5 +42,13 @@ public class Candidate {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Integer getNumberOfVotes() {
+        return numberOfVotes;
+    }
+
+    public void setNumberOfVotes(Integer numberOfVotes) {
+        this.numberOfVotes = numberOfVotes;
     }
 }
