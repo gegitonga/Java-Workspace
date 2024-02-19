@@ -1,5 +1,0 @@
-INDEX VERSION 1.134
-C:\Users\HomePC\Desktop\Java Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3013536112.index
-\JavaWebApp\src\main\resources
-C:\Users\HomePC\Desktop\Java Workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3245241576.index
-\JavaWebApp\src\main\resources
