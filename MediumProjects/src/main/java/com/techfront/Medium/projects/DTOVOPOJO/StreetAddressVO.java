@@ -29,5 +29,5 @@ public class StreetAddressVO {
 		return Objects.hash(street,city,zipcode);
 	}
 	
-	public record StreetAddressVO(String street, String city, Long zipcode) {}
+//	public record StreetAddressVO(String street, String city, Long zipcode) {}
 }
