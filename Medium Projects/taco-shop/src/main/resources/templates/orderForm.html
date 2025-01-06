@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<title>Taco Cloud - Order Form</title>
+	<link rel="stylesheet" href="styles.css" />
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f8f8f8;
+			color: #333;
+		}
+
+		header {
+			background-color: #ff6347;
+			color: #fff;
+			text-align: center;
+			padding: 1rem 2rem;
+		}
+
+		header img {
+			height: 50px;
+			vertical-align: middle;
+		}
+
+		main {
+			max-width: 800px;
+			margin: 2rem auto;
+			padding: 2rem;
+			background: #fff;
+			border-radius: 8px;
+			box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+		}
+
+		h1 {
+			text-align: center;
+			margin-bottom: 1.5rem;
+			color: #ff6347;
+		}
+
+		.taco-list ul {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		.taco-list li {
+			background: #f9f9f9;
+			margin: 0.5rem 0;
+			padding: 0.5rem 1rem;
+			border-radius: 4px;
+			border: 1px solid #ddd;
+		}
+
+		form label {
+			display: block;
+			margin: 0.5rem 0 0.25rem;
+		}
+
+		form input[type="text"],
+		form input[type="submit"] {
+			width: 100%;
+			padding: 0.75rem;
+			margin-bottom: 1rem;
+			border: 1px solid #ddd;
+			border-radius: 4px;
+			font-size: 1rem;
+		}
+
+		form input[type="submit"] {
+			background-color: #ff6347;
+			color: #fff;
+			cursor: pointer;
+			font-weight: bold;
+			border: none;
+		}
+
+		form input[type="submit"]:hover {
+			background-color: #e5533d;
+		}
+
+		#another {
+			display: inline-block;
+			margin: 1rem 0;
+			padding: 0.5rem 1rem;
+			background-color: #ff6347;
+			color: #fff;
+			text-decoration: none;
+			border-radius: 4px;
+		}
+
+		#another:hover {
+			background-color: #e5533d;
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<img th:src="@{/images/TacoCloud.png}" alt="Taco Cloud Logo" />
+	</header>
+	<main>
+		<h1>Order Your Taco Creations!</h1>
+		<form method="POST" th:action="@{/orders}" th:object="${tacoOrder}">
+			<section class="taco-list">
+				<h3>Your tacos in this order:</h3>
+				<a th:href="@{/design}" id="another">Design another taco</a>
+				<ul>
+					<li th:each="taco : ${tacoOrder.tacos}">
+						<span th:text="${taco.name}">Taco Name</span>
+					</li>
+				</ul>
+			</section>
+			<section class="delivery-details">
+				<h3>Deliver My Taco Masterpieces To...</h3>
+				<label for="deliveryName">Name:</label>
+				<input type="text" th:field="*{deliveryName}" placeholder="Enter your name" />
+				<label for="deliveryStreet">Street Address:</label>
+				<input type="text" th:field="*{deliveryStreet}" placeholder="Enter your street address" />
+				<label for="deliveryCity">City:</label>
+				<input type="text" th:field="*{deliveryCity}" placeholder="Enter your city" />
+				<label for="deliveryState">State:</label>
+				<input type="text" th:field="*{deliveryState}" placeholder="Enter your state" />
+				<label for="deliveryZip">Zip Code:</label>
+				<input type="text" th:field="*{deliveryZip}" placeholder="Enter your zip code" />
+			</section>
+			<section class="payment-details">
+				<h3>Here's How I'll Pay...</h3>
+				<label for="ccNumber">Credit Card #:</label>
+				<input type="text" th:field="*{ccNumber}" placeholder="Enter your credit card number" />
+				<label for="ccExpiration">Expiration:</label>
+				<input type="text" th:field="*{ccExpiration}" placeholder="MM/YY" />
+				<label for="ccCVV">CVV:</label>
+				<input type="text" th:field="*{ccCVV}" placeholder="CVV" />
+			</section>
+			<input type="submit" value="Submit Order" />
+		</form>
+	</main>
+</body>
+
+</html>
