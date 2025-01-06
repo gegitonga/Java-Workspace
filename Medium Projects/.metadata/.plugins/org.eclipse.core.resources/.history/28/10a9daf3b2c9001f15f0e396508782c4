@@ -1,0 +1,26 @@
+package com.tacoshop.demo.models;
+
+import java.util.List;
+
+import com.tacoshop.demo.models.Ingredient.Type;
+
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Taco {
+	@NotNull
+	@Size(min = 5, message="Name must be atleast 5 char")
+	private String name;
+	
+	@NotNull
+	@Size(min = 2, message="Choose atleat one ingrdient")
+	private List<Ingredient> ingredients;
+
+
+	
+	
+}

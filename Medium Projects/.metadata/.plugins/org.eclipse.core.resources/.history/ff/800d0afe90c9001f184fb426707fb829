@@ -1,0 +1,5 @@
+package com.tacoshop.demo.config;
+
+public class ThymeleafConfig {
+
+}
