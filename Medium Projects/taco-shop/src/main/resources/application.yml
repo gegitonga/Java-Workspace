@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: taco-shop
+  datasource:
+    url: jdbc:postgresql://localhost:5432/taco_shop
+    username: postgres
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+taco:
+  orders:
+    pageSize: 10
