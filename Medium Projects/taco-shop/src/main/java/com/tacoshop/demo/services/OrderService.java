@@ -25,5 +25,13 @@ public class OrderService {
 	public List<TacoOrder> findByUserOrderByPlacedAtDesc(User user, Pageable pageable){
 		return orderRepository.findByUserOrderByPlacedAtDesc(user, pageable);
 	}
+
+	public TacoOrder saveOrder(TacoOrder order){
+		return orderRepository.save(order);
+	}
+
+	public void deleteOrder(Long id){
+		orderRepository.deleteById(id);
+	}
 	
 }
