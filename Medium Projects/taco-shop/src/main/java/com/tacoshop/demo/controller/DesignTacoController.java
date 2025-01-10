@@ -28,9 +28,6 @@ import lombok.extern.slf4j.Slf4j;
 @SessionAttributes("tacoOrder")
 public class DesignTacoController {
 	
-	@Autowired
-	private ingredientService ingredientService;
-	
 	@ModelAttribute
 	public void addIngredientsToModel(Model model) {
 		List<Ingredient> ingredients = Arrays.asList(new Ingredient("FLTO", "Flour Tortilla", Type.WRAP),

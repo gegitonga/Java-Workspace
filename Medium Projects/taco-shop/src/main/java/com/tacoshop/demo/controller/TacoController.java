@@ -1,16 +1,12 @@
 package com.tacoshop.demo.controller;
 
-import java.util.Arrays;
 import java.util.Optional;
 
-import org.springframework.boot.CommandLineRunner;
-import org.springframework.context.annotation.Bean;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,17 +19,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.tacoshop.demo.models.Ingredient;
 import com.tacoshop.demo.models.Taco;
 import com.tacoshop.demo.models.TacoOrder;
-import com.tacoshop.demo.models.Ingredient.Type;
-import com.tacoshop.demo.repository.IngredientRepository;
-import com.tacoshop.demo.repository.TacoRepository;
-import com.tacoshop.demo.repository.UserRepository;
 import com.tacoshop.demo.services.OrderService;
 import com.tacoshop.demo.services.TacoService;
 
-// @RestController
+@RestController
 @RequestMapping(path="/api/tacos", produces = "application/json")
 @CrossOrigin(origins = "http://localhost:8080")
 public class TacoController {

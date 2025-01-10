@@ -1,4 +1,7 @@
 spring:
+  data:
+    rest:
+      base-path: /data-api
   application:
     name: taco-shop
   datasource:
@@ -11,9 +14,7 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-  data:
-    rest:
-      base-path: /data-api
+
 taco:
   orders:
     pageSize: 10
