@@ -9,12 +9,20 @@ import com.tacoshop.demo.models.Ingredient;
 import com.tacoshop.demo.repository.IngredientRepository;
 
 @Service
-public class ingredientService {
+public class IngredientService {
 	
 	@Autowired
 	private IngredientRepository ingredientRepository;
 	
 	public List<Ingredient> findAll(){
 		return ingredientRepository.findAll();
+	}
+
+	public Ingredient save(Ingredient ingredient){
+		return ingredientRepository.save(ingredient);
+	}
+
+	public void delete(String id){
+		ingredientRepository.deleteById(id);
 	}
 }

@@ -17,7 +17,7 @@ import com.tacoshop.demo.models.Ingredient;
 import com.tacoshop.demo.models.Ingredient.Type;
 import com.tacoshop.demo.models.Taco;
 import com.tacoshop.demo.models.TacoOrder;
-import com.tacoshop.demo.services.ingredientService;
+import com.tacoshop.demo.services.IngredientService;
 
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
