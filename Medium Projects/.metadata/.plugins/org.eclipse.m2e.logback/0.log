@@ -5991,3 +5991,88 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.hibernate
 2025-01-13 11:31:33,458 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-01-13 11:31:33,467 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-01-13 11:31:33,471 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\authorization-server\src\test\resources
+2025-01-15 11:20:47,578 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-01-15 11:21:02,698 [Worker-7: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.authServer:AuthServer:0.0.1-SNAPSHOT @ D:\Workspace\Java Workspace\Medium Projects\authorization-server\pom.xml.
+2025-01-15 11:21:05,330 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:21:05,375 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-15 11:21:05,386 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\authorization-server\src\test\resources
+2025-01-15 11:21:06,991 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-authorization-server/1.3.4/spring-security-oauth2-authorization-server-1.3.4-sources.jar
+2025-01-15 11:21:07,178 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-authorization-server/1.3.4/spring-security-oauth2-authorization-server-1.3.4-sources.jar
+2025-01-15 11:21:07,188 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-authorization-server:1.3.4
+2025-01-15 11:21:09,331 [Worker-4: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.authServer:AuthServer:0.0.1-SNAPSHOT @ D:\Workspace\Java Workspace\Medium Projects\authorization-server\pom.xml.
+2025-01-15 11:21:09,700 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.39.3/nimbus-jose-jwt-9.39.3-sources.jar
+2025-01-15 11:21:09,909 [Worker-12: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.39.3/nimbus-jose-jwt-9.39.3-sources.jar
+2025-01-15 11:21:09,916 [Worker-12: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:nimbus-jose-jwt:9.39.3
+2025-01-15 11:21:10,952 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:21:10,988 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-15 11:21:10,997 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\authorization-server\src\test\resources
+2025-01-15 11:21:16,591 [Worker-16: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taco-shop:TacoShop:0.0.1-SNAPSHOT @ D:\Workspace\Java Workspace\Medium Projects\taco-shop\pom.xml.
+2025-01-15 11:21:18,435 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:21:18,491 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-01-15 11:21:18,507 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-shop\src\test\resources
+2025-01-15 11:21:19,405 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-resource-server/3.4.1/spring-boot-starter-oauth2-resource-server-3.4.1-sources.jar
+2025-01-15 11:21:19,412 [Worker-6: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-resource-server/3.4.1/spring-boot-starter-oauth2-resource-server-3.4.1-sources.jar
+2025-01-15 11:21:19,417 [Worker-6: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-oauth2-resource-server:3.4.1
+2025-01-15 11:21:21,113 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:21:21,115 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-01-15 11:21:21,128 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-shop\src\test\resources
+2025-01-15 11:36:21,934 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tacoClient:clientServer:0.0.1-SNAPSHOT @ D:\Workspace\Java Workspace\Medium Projects\taco-client\pom.xml.
+2025-01-15 11:36:22,683 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.37.3/nimbus-jose-jwt-9.37.3.jar
+2025-01-15 11:36:22,994 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.37.3/nimbus-jose-jwt-9.37.3.jar
+2025-01-15 11:36:23,708 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-client/src/main/java
+2025-01-15 11:36:23,710 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-client/src/main/resources
+2025-01-15 11:36:23,713 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-client/src/main/resources
+2025-01-15 11:36:23,716 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-client/src/test/java
+2025-01-15 11:36:23,718 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-client/src/test/resources
+2025-01-15 11:36:24,104 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-01-15 11:36:24,109 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-01-15 11:36:24,399 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.tacoClient:clientServer:0.0.1-SNAPSHOT @ D:\Workspace\Java Workspace\Medium Projects\taco-client\pom.xml.
+2025-01-15 11:36:24,691 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.4.1/spring-boot-starter-oauth2-client-3.4.1-sources.jar
+2025-01-15 11:36:24,699 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/3.4.1/spring-boot-starter-oauth2-client-3.4.1-sources.jar
+2025-01-15 11:36:24,704 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-oauth2-client:3.4.1
+2025-01-15 11:36:24,939 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.4.2/spring-security-oauth2-client-6.4.2-sources.jar
+2025-01-15 11:36:25,078 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-client/src/main/java
+2025-01-15 11:36:25,079 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-client/src/main/resources
+2025-01-15 11:36:25,080 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-client/src/main/resources
+2025-01-15 11:36:25,081 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /taco-client/src/test/java
+2025-01-15 11:36:25,081 [Worker-7: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /taco-client/src/test/resources
+2025-01-15 11:36:25,184 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/6.4.2/spring-security-oauth2-client-6.4.2-sources.jar
+2025-01-15 11:36:25,189 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-client:6.4.2
+2025-01-15 11:36:25,429 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.4/oauth2-oidc-sdk-9.43.4-sources.jar
+2025-01-15 11:36:25,721 [Worker-7: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-01-15 11:36:26,183 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:36:26,210 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-15 11:36:26,216 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-client\src\test\resources
+2025-01-15 11:36:26,641 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.43.4/oauth2-oidc-sdk-9.43.4-sources.jar
+2025-01-15 11:36:26,645 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:oauth2-oidc-sdk:9.43.4
+2025-01-15 11:36:26,876 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.2/content-type-2.2-sources.jar
+2025-01-15 11:36:26,884 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.2/content-type-2.2-sources.jar
+2025-01-15 11:36:26,887 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:content-type:2.2
+2025-01-15 11:36:27,132 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7-sources.jar
+2025-01-15 11:36:27,142 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.7/lang-tag-1.7-sources.jar
+2025-01-15 11:36:27,148 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:lang-tag:1.7
+2025-01-15 11:36:27,392 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.37.3/nimbus-jose-jwt-9.37.3-sources.jar
+2025-01-15 11:36:27,659 [Worker-17: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/nimbus-jose-jwt/9.37.3/nimbus-jose-jwt-9.37.3-sources.jar
+2025-01-15 11:36:27,661 [Worker-17: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:nimbus-jose-jwt:9.37.3
+2025-01-15 11:38:35,228 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:38:35,235 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-15 11:38:35,240 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-client\src\test\resources
+2025-01-15 11:38:43,297 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 17.0.11+9
+2025-01-15 11:38:43,357 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@4b0751f2{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@41db3532{STARTED}}
+2025-01-15 11:38:43,359 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2025-01-15 11:38:43,389 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@69bac67e{HTTP/1.1, (http/1.1)}{127.0.0.1:52188}
+2025-01-15 11:38:43,409 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@4f4a3643{STARTING}[12.0.6,sto=0] @1101115ms
+2025-01-15 11:40:24,795 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:40:24,800 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-15 11:40:24,806 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-client\src\test\resources
+2025-01-15 11:41:20,334 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:41:20,342 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-15 11:41:20,346 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-client\src\test\resources
+2025-01-15 11:44:16,239 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:44:16,245 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-15 11:44:16,248 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-client\src\test\resources
+2025-01-15 11:47:31,639 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-15 11:47:31,644 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-15 11:47:31,646 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-client\src\test\resources
+2025-01-15 11:48:46,446 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@4f4a3643{STOPPING}[12.0.6,sto=0]
+2025-01-15 11:48:46,449 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@69bac67e{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
