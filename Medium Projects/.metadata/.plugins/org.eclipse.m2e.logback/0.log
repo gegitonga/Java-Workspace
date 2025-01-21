@@ -6239,3 +6239,48 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.hibernate
 2025-01-16 10:11:36,726 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-01-16 10:11:36,739 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-01-16 10:11:36,742 [Worker-2: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\ActiveMQDemo\src\test\resources
+2025-01-21 09:26:35,063 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-01-21 09:26:45,764 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-21 09:26:45,769 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-21 09:26:45,783 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\ActiveMQDemo\src\test\resources
+2025-01-21 09:26:51,267 [Worker-12: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:ActiveMQDemo:0.0.1-SNAPSHOT @ D:\Workspace\Java Workspace\Medium Projects\ActiveMQDemo\pom.xml.
+2025-01-21 09:26:57,514 [Worker-9: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.taco-shop:TacoShop:0.0.1-SNAPSHOT @ D:\Workspace\Java Workspace\Medium Projects\taco-shop\pom.xml.
+2025-01-21 09:26:59,762 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-21 09:26:59,806 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-01-21 09:26:59,836 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-shop\src\test\resources
+2025-01-21 09:27:01,005 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-amqp/3.4.1/spring-boot-starter-amqp-3.4.1-sources.jar
+2025-01-21 09:27:01,033 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-amqp/3.4.1/spring-boot-starter-amqp-3.4.1-sources.jar
+2025-01-21 09:27:01,044 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-amqp:3.4.1
+2025-01-21 09:27:01,240 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/3.2.1/spring-rabbit-3.2.1-sources.jar
+2025-01-21 09:27:01,473 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-rabbit/3.2.1/spring-rabbit-3.2.1-sources.jar
+2025-01-21 09:27:01,483 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.amqp:spring-rabbit:3.2.1
+2025-01-21 09:27:01,700 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/3.2.1/spring-amqp-3.2.1-sources.jar
+2025-01-21 09:27:01,827 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/amqp/spring-amqp/3.2.1/spring-amqp-3.2.1-sources.jar
+2025-01-21 09:27:01,857 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.amqp:spring-amqp:3.2.1
+2025-01-21 09:27:02,074 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/2.0.11/spring-retry-2.0.11-sources.jar
+2025-01-21 09:27:02,211 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/retry/spring-retry/2.0.11/spring-retry-2.0.11-sources.jar
+2025-01-21 09:27:02,218 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.retry:spring-retry:2.0.11
+2025-01-21 09:27:02,410 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.22.0/amqp-client-5.22.0-sources.jar
+2025-01-21 09:27:02,419 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-21 09:27:02,426 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 6 resources from src\main\resources to target\classes
+2025-01-21 09:27:02,438 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\taco-shop\src\test\resources
+2025-01-21 09:27:02,598 [Worker-5: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/rabbitmq/amqp-client/5.22.0/amqp-client-5.22.0-sources.jar
+2025-01-21 09:27:02,604 [Worker-5: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.rabbitmq:amqp-client:5.22.0
+2025-01-21 09:28:47,619 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DesignPatternDemo:0.0.1-SNAPSHOT @ D:\Workspace\Java Workspace\Medium Projects\DesignPatternDemo\pom.xml.
+2025-01-21 09:28:48,965 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesignPatternDemo/src/main/java
+2025-01-21 09:28:48,970 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesignPatternDemo/src/main/resources
+2025-01-21 09:28:48,980 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesignPatternDemo/src/main/resources
+2025-01-21 09:28:48,985 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesignPatternDemo/src/test/java
+2025-01-21 09:28:48,986 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesignPatternDemo/src/test/resources
+2025-01-21 09:28:49,469 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2025-01-21 09:28:49,474 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-01-21 09:28:49,895 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:DesignPatternDemo:0.0.1-SNAPSHOT @ D:\Workspace\Java Workspace\Medium Projects\DesignPatternDemo\pom.xml.
+2025-01-21 09:28:50,630 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesignPatternDemo/src/main/java
+2025-01-21 09:28:50,632 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesignPatternDemo/src/main/resources
+2025-01-21 09:28:50,633 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesignPatternDemo/src/main/resources
+2025-01-21 09:28:50,633 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DesignPatternDemo/src/test/java
+2025-01-21 09:28:50,634 [Worker-14: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DesignPatternDemo/src/test/resources
+2025-01-21 09:28:51,175 [Worker-14: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-01-21 09:28:51,834 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-01-21 09:28:51,871 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-01-21 09:28:51,877 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\Workspace\Java Workspace\Medium Projects\DesignPatternDemo\src\test\resources
