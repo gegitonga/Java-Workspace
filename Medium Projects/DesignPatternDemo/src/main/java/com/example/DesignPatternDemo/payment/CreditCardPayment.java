@@ -1,5 +1,8 @@
 package com.example.DesignPatternDemo.payment;
 
+import org.springframework.stereotype.Component;
+
+@Component("CreditCardPayment")
 public class CreditCardPayment implements PaymentStrategy {
 
     @Override
