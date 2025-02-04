@@ -79,4 +79,8 @@ public class User {
         return comment;
     }
 
+    private int generateId(){
+        return (int) (System.currentTimeMillis() % Integer.MAX_VALUE);
+    }
+
 }
