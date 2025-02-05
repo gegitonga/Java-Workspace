@@ -13,7 +13,7 @@ public class Question implements Votable, Commentable {
     private final List<Vote> votes;
 
     public Question(User author, String title, String content, List<String> tagNames){
-        this.id = gereateId();
+        this.id = generateId();
         this.author = author;
         this.title = title;
         this.content = content;

@@ -8,17 +8,17 @@ public class User {
     private int reputation;
     private final List<Question> questions;
     private final List<Answer> answers;
-    private final List<Comment> comment;
+    private final List<Comment> comments;
 
     private static final int Question_REPUTATION = 5;
-    private final final int ANSWER_REPUTATION = 10;
-    private final final int COMMENT_REPUTATION = 2;
+    private final int ANSWER_REPUTATION = 10;
+    private final int COMMENT_REPUTATION = 2;
 
     public User(int id, String username, String email){
         this.id= id;
         this.username = username;
         this.email = email;
-        this.reputation = reputation;
+        this.reputation = 0;
         this.questions = new ArrayList<>();
         this.answers = new ArrayList<>();
         this.comments = new ArrayList<>();
@@ -34,7 +34,7 @@ public class User {
     public Answer answerQuestion(Question question, String content){
         Answer answer = new Answer(this, question, content);
         answers.add(answer);
-        questions.addAnswer(answer);
+        question.addAnswer(answer);
         updateReputation(ANSWER_REPUTATION);
         return answer;
     }
@@ -68,19 +68,15 @@ public class User {
     }
 
     public List<Question> getQuestions() {
-        return questions;
+        return new ArrayList<>(questions);
     }
 
     public List<Answer> getAnswers() {
-        return answers;
+        return new ArrayList<>(answers);
     }
 
     public List<Comment> getComment() {
-        return comment;
-    }
-
-    private int generateId(){
-        return (int) (System.currentTimeMillis() % Integer.MAX_VALUE);
+        return new ArrayList<>(comments);
     }
 
 }
