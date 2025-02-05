@@ -61,7 +61,7 @@ public class StackOverflow {
         .collect(Collectors.toList());
     }
 
-    public List<Question> getQuestionByUser(User user){
+    public List<Question> getQuestionsByUser(User user){
         return user.getQuestions();
     }
 
@@ -80,7 +80,5 @@ public class StackOverflow {
     public Tag getTags(String name) {
         return tags.get(name);
     }
-
-    
 
 }
