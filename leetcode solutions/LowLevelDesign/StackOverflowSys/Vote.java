@@ -1,3 +1,5 @@
+package LowLevelDesign.StackOverflowSys;
+
 public class Vote {
     private User user;
     private int value;
